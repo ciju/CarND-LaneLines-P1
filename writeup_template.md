@@ -41,9 +41,8 @@ There are quite a few shortcomings of the current approach. Its quite brittle.
 1. Lane marks should be present and visible on the road. Ex, if lanes are blocked by cars in front of you, this might not work.
 2. Steep curves (algorithm assumes the lanes to be mostly straight lanes).
 3. Since we are looking for bright gradient edges, any other straight lines around the lanes might trip the algorithm.
-4. Doesn't consider the past. Ex, every image is processed afresh, and ignores where the car was, before that state.
-
 
 ### 3. Suggest possible improvements to your pipeline
 
-Probably look at more situations, and figure out what different variations are possible. But again, their might be too many, to accommodate.
+- Doesn't consider the past. Ex, every image is processed afresh, and ignores where the car was, before that state.
+- Probably look at more situations, and figure out what different variations are possible. But again, their might be too many, to accommodate.
